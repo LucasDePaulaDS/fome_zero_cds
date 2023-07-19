@@ -5,7 +5,6 @@ import plotly.express as px
 import folium
 import streamlit as st
 import inflection
-
 from streamlit_folium import folium_static
 from folium.plugins import MarkerCluster
 from haversine import haversine
