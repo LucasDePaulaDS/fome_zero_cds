@@ -8,6 +8,7 @@ from streamlit_folium import folium_static
 from folium.plugins import MarkerCluster
 from haversine import haversine
 from datetime import datetime 
+import inflection
 
 st.set_page_config(page_title="Home")
 
